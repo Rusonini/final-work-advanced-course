@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stylesheet</title>
+</head>
+<body>
+    <div class="global">
+        <header>
+            <!-- левый блок шапки сайта -->
+            <input type="checkbox" class="menu"></input>
+            <div class="leftHeader">
+                <a class="headerText">Обо мне</a>
+                <a class="headerText">Портфолио</a>
+                <a class="headerText">Этапы работ</a>
+                <a class="headerText">Цены</a>
+                <a class="headerText">Обратная связь</a>
+            </div>
+            <!-- правый блок шапки сайта -->
+            <div class="rightHeader">
+                <a class="phoneNumber" href="tel:8 923 777-77-77">8 923 777-77-77</a>
+                <a class="email" href="mailto:alexdev@gmail.com">alexdev@gmail.com</a>
+            </div>
+            
+        </header>
+            <!-- главный блок с большой картинкой -->
+        <div class="mainPictureBlock">
+            <img class="mainPicture" src="img/image.png" alt="">
+            <span class="name">Александр Антропов</span>
+            <h1 class="post">web-разработчик</h1>
+
+            <div class="messengersBlock">
+                <h3 class="title">Обсудить проект &rarr;</h3>
+                <div class="messengers">
+                    <a class="messengersLinks Vk" href="">Vk</a>
+                    <a class="messengersLinks Instagram" href="">Instagram</a>
+                    <a class="messengersLinks Linkedin" href="">Linkedin</a>
+                </div>
+            </div>
+        </div>
+        <hr class="line"> <!-- линия разграничивающая длоки -->
+        <div class="columnsTop">
+            <!-- маленькие колонки -->
+            <div class="columnsStyle columnsBlockOne">
+                <h3 class="columnsTitle">FRONT-END</h3>
+                <p class="columnsText">HTML+CSS+JS кодирование <br>дизайнов любой сложности</p>
+            </div>
+            <div class="columnsStyle columnsBlockOne">
+                <h3 class="columnsTitle">Back-end</h3>
+                <p class="columnsText">Разработка сложной back-end <br>логики для готового front-end</p>
+            </div>
+            <div class="columnsStyle columnsBlockOne">
+                <h3 class="columnsTitle">WORDPRESS</h3>
+                <p class="columnsText">Разработка сайтов - от блога <br>до интернет магазина</p>
+            </div>
+            <div class="columnsStyle columnsBlockOne">
+                <h3 class="columnsTitle">SEO продвижение</h3>
+                <p class="columnsText">Качественное улучшение позиций <br>сайта в поисковой выдаче</p>
+            </div>
+        </div>
+
+        <!-- большие буквы обо мне и текст <span> напротив-->
+            <div class="contents">
+                <div class="aboutMeLeft">
+                    <p class="aboutMeTitle nameBlock">Обо мне</p>
+                </div>
+                <div class="aboutMeRight">
+                        <div class="contentsBlock">
+                            <span class="contentsText">Создаю только эффективные решения, которые работают на результат: <br>от одностраничных сайтов, до крупных интернет-порталов.</span>
+                        </div>
+                        <!-- под текстом <span> колонки 2х2 визуально такиеже как и колонки выше "columns" -->
+                </div>
+            </div>
+            <hr class="line"> <!-- линия разграничивающая длоки -->
+            <!-- этот блок лижал в aboutMeRight  но он мешает ниже дубляжу -->
+            <div class="columnsBlok">
+                <div class="columnsBlokLeft">
+                    <div class="columnsStyle columnsBlockTwo">
+                        <h3 class="title">Контроль</h3>
+                        <p class="columnsText">Предоставление результатов <br>на каждом этапе работы <br>с возможностью внести правки</p>
+                    </div>
+                    <div class="columnsStyle columnsBlockTwo">
+                        <h3 class="title">Исполнительность</h3>
+                        <p class="columnsText">Внимательность ко всем требованиям заказчика <br>и прояснение любых моментов</p>
+                    </div>
+                </div>
+                <div class="columnsBlokRight">
+                    <div class="columnsStyle columnsBlockTwo">
+                        <h3 class="title">Ответственность</h3>
+                        <p class="columnsText">Фриланс как основная деятельность, что означает полную отдачу <br>в процессе работы над заказом</p>
+                    </div>
+                    <div class="columnsStyle columnsBlockTwo">
+                        <h3 class="title">Качество</h3>
+                        <p class="columnsText">Высокое качество как графических материалов, так и внутренних алгоритмов работы сайта</p>
+                    </div>
+                </div>
+            </div>
+        <!-- дальше идут линии с текстом  -->
+        <div class="workPlan">
+            <hr class="line"> <!-- линия разграничивающая длоки -->
+            <div class="aboutMeText"><span class="planTitle">01     Вы заказываете сайт</span><span class="smallText">Связываетесь со мной по телефону или через заявку на сайте</span></div>
+            <hr class="line"> <!-- линия разграничивающая длоки -->
+            <div class="aboutMeText"><span class="planTitle">02     Обговариваем детали</span><span class="smallText">Созваниваемся или списываемся любым удобным для вас способом</span></div>
+            <hr class="line"> <!-- линия разграничивающая длоки -->
+            <div class="aboutMeText"><span class="planTitle">03     Этап программирования</span><span class="smallText">Верстаю сайт по вашему проекту пиксель в пиксель</span></div>
+            <hr class="line"> <!-- линия разграничивающая длоки -->
+        </div>
+
+        <div class="portfolio">
+            <h2 class="post">Портфолио</h2>
+            <div class="contentBlock">
+                <div class="portfolioLeft">
+                    <p class="nameBlock">Agata Bielen</p>
+                    <span class="smallText">
+                        – верстка по макету из Figma<br>
+                        – наполнение сайта контентом<br>
+                        – внедрена функция добавления видео<br>
+                    </span>
+                    <span class="smallThickText">Затрачено времени: 5 рабочих дней</span>
+                </div>
+                <div class="portfolioRight">
+                    <img class="portfolioImg" src="img/layout preview.png" alt="">
+                </div>
+            </div>
+            <hr class="line"> <!-- линия разграничивающая длоки -->
+            <div class="contentBlock">
+                <div class="portfolioLeft">
+                    <p class="nameBlock">Lemon</p>
+                    <span class="smallText">
+                        – верстка по макету из PSD<br>
+                        – доступен функционал получения заказов<br>
+                        – реализована кнопка «Заказать в 1 клик»<br>
+                    </span>
+                    <p class="smallThickText">Затрачено времени: 7 рабочих дней</p>
+                </div>
+                <div class="portfolioRight">
+                    <img class="portfolioImg" src="img/layout preview (1).png" alt="">
+                </div>
+            </div>
+            <hr class="line"> <!-- линия разграничивающая длоки -->
+            <div class="contentsTextBox">
+                <p class="contentsText">Помимо создания сайтов и посадочных страниц я занимаюсь: <br>настройкой контекстной рекламы в системах Яндекс.Директ<br>и Google AdWords, а так же поисковым продвижением сайтов</p>
+            </div>
+            <hr class="line"> <!-- линия разграничивающая длоки -->
+            
+            <!-- блок с таблицей из 6 слотов с разными картинками и текстом с 2 шрифтами СДЕЛАТЬ ЧЕРЕЗ ГРИД! -->
+            <div class="blockСells">
+                    <div class="block">
+                        <img class="blockImg" src="img/logo/cil_money.png" alt="">
+                        <div class="blockInfo">
+                            <h3 class="title">Актуальные цены</h3>
+                            <p class="columnsText">Ничего лишнего, без переплат,<br>100% отработка ваших денег</p>
+                        </div> 
+                    </div>
+                    <div class="block">
+                        <img class="blockImg" src="img/logo/cil_image-plus.png" alt="">
+                        <div class="blockInfo">
+                            <h3 class="title">Более 2-х лет опыта </h3>
+                            <p class="columnsText">Это моя основная деятельность,<br>создано более 150+ сайтов</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img class="blockImg" src="img/logo/Group.png" alt="">
+                        <div class="blockInfo">
+                            <h3 class="title">Оптимальные сроки</h3>
+                            <p class="columnsText">Создание сайта любой сложности<br>в самые сжатые сроки</p>
+                        </div> 
+                </div>
+                    <div class="block">
+                        <img class="blockImg" src="img/logo/telephone-2 1.png" alt="">
+                        <div class="blockInfo">
+                            <h3 class="title">Всегда на связи</h3>
+                            <p class="columnsText">Не теряюсь и не проматываю<br>сроки. Подхожу ответственно</p>
+                        </div> 
+                    </div>
+                    <div class="block">
+                        <img class="blockImg" src="img/logo/Vector.png" alt="">
+                        <div class="blockInfo">
+                            <h3 class="title">Чистый код</h3>
+                            <p class="columnsText">HTML код без всего лишнего, плюс<br>адаптив под все устройства</p>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <img class="blockImg" src="img/logo/file 1.png" alt="">
+                        <div class="blockInfo">
+                            <h3 class="title">Поддержка сайта</h3>
+                            <p class="columnsText">Быстро устраню любую проблему<br>на вашем сайте</p>
+                        </div> 
+                    </div>  
+            </div>
+        </div>
+        <!-- дальше блок с языками прогр. в таблицей -->
+
+        <!-- ПРОПУСТИЛ!!! -->
+        <div class="table">
+                <div class="tableImgBorder">
+                    <img id="logo" class="tableImg" src="img/logo/html5 1.svg" alt="">
+                    <p class="Tooltip"> JavaScript ES6+<br>Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам</p>
+                </div>
+                <div class="tableImgBorder">
+                    <img class="tableImg" src="img/logo/css-logo 1.svg" alt="">
+                    <p class="Tooltip"> JavaScript ES6+<br>Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам</p>
+                </div>
+                <div class="tableImgBorder">
+                    <img class="tableImg" src="img/logo/Unofficial_JavaScript_logo_2 1.svg" alt="">
+                    <p class="Tooltip"> JavaScript ES6+<br>Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам</p>
+                </div>
+                <div class="tableImgBorder">
+                    <img class="tableImg" src="img/logo/jquery 1.svg" alt="">
+                    <p class="Tooltip"> JavaScript ES6+<br>Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам</p>
+                </div>
+                <div class="tableImgBorder">
+                    <img class="tableImg" src="img/logo/bootstrap 1.svg" alt="">
+                    <p class="Tooltip"> JavaScript ES6+<br>Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам</p>
+                </div>
+                <div class="tableImgBorder">
+                    <img class="tableImg" src="img/logo/php 1.svg" alt="">
+                    <p class="Tooltip"> JavaScript ES6+<br>Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам</p>
+                </div>
+                <div class="tableImgBorder">
+                    <img class="tableImg" src="img/logo/Vue.js_Logo_2 1.svg" alt="">
+                    <p class="Tooltip"> JavaScript ES6+<br>Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам</p>
+                </div>
+                <div class="tableImgBorder">
+                    <img class="tableImg" src="img/logo/Wordpress-Logo 1.svg" alt="">
+                    <p class="Tooltip"> JavaScript ES6+<br>Язык программирования высокого уровня, использующийся для придания интерактивности веб-страницам</p>
+                </div>
+        </div>
+        <div class="contents">
+            <div class="aboutMeLeft">
+                <p class="aboutMeTitle nameBlock">Тарифы</p>
+            </div>
+            <div class="aboutMeRight">
+                    <div class="contentsBlock">
+                        <span class="contentsText">Представленные ниже цены зависят не только от того какой сайт вы хотите. Конечная цена будет озвучена после прочтения Вашего ТЗ</span>
+                    </div>
+            </div>
+        </div>
+        <hr class="line"> <!-- линия разграничивающая длоки -->
+        <!-- блоки сценами  ИХ 3 НО У НАС 1!!!-->
+        <div class="prices">
+            <div class="blockLeft">
+                <p class="contentsText">Разработка <br>лэндинга или сайт визитки</p>
+                <span class="smallText">Небольшой сайт состоящий из одной страницы</span>
+                <h3 class="title">Обсудить проект &rarr;</h3>
+            </div>
+            <div class="blockRight">
+                <span class="title">Что входит</span>
+                <p class="smallText">Сайт на CMS WordPress <br>Одна посадочная страница <br>От 7 дней</p>
+                <p class="pricesValue">От 7 000 Р</p>
+            </div>
+        </div>
+        <hr class="line"> <!-- линия разграничивающая длоки -->
+        <div class="prices">
+            <div class="blockLeft">
+                <p class="contentsText">Разработка<br>интернет - магазина</p>
+                <span class="smallText">Полноценный каталог вашей продукции</span>
+                <h3 class="title">Обсудить проект &rarr;</h3>
+            </div>
+            <div class="blockRight">
+                <span class="title">Что входит</span>
+                <p class="smallText">Сайт на CMS WordPress<br>От 2-10 страниц, корзина, карточка товара<br>От 20 дней</p>
+                <p class="pricesValue">От 10 000 Р</p>
+            </div>
+        </div>
+        <hr class="line"> <!-- линия разграничивающая длоки -->
+        <div class="prices">
+            <div class="blockLeft">
+                <p class="contentsText">Разработка<br>интернет - магазина</p>
+                <span class="smallText">Полноценный каталог вашей продукции</span>
+                <h3 class="title">Обсудить проект &rarr;</h3>
+            </div>
+            <div class="blockRight">
+                <span class="title">Что входит</span>
+                <p class="smallText">Сайт на CMS WordPress<br>От 2-10 страниц, корзина, карточка товара<br>От 20 дней</p>
+                <p class="pricesValue">От 15 000 Р</p>
+            </div>
+        </div>
+        <!-- соеденить 2 в 1 блока выше -->
+        
+        <div class="contents">
+            <div class="aboutMeLeft">
+                <span class="aboutMeTitle nameBlock">Расскажите <!-- <br> -->о своем проекте</span>
+            </div>
+            <div class="aboutMeRight">
+                <div class="contentsBlock">
+                    <span class="contentsText">Воспользуйтесь формой обратной <br>связи, чтобы обсудить ваш проект, <br>заполните все поля, и я свяжусь <br>с вами в ближайшее время</span>
+                </div>
+            </div>
+        </div>
+        <hr class="line"> <!-- линия разграничивающая длоки -->
+        <!-- блок с почтой, месенджерами и регистрацией -->
+        <div class="connection">
+            <div class="blockLeft">
+                <div class="messengers">
+                    <a class="messengersLinks" href="">Vk</a>
+                    <a class="messengersLinks" href="">Instagram</a>
+                    <a class="messengersLinks" href="">Linkedin</a>
+                </div>
+            </div>
+            <div class="blockRight">
+                <label for="telOrEmail" class="connectionFont">Телефон или почта</label>
+                <input id="telOrEmail" class="emailTel" type="text">
+
+                <label for="contact" class="connectionFont">Выберите удобный способ связи</label>
+                <select  name="contacts" id="contact">
+                    <option value="Vk">Vk</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="Linkedin">Linkedin</option>
+                  </select>
+
+                <button class="send">Отправить</button>
+            </div>
+        </div>
+        <hr class="line"> <!-- линия разграничивающая длоки -->
+
+        <footer class="foot">
+            <!-- левый блок шапки сайта -->
+            <div class="leftHeader">
+                <button class="headerText">Обо мне</button>
+                <button class="headerText">Портфолио</button>
+                <button class="headerText">Этапы работ</button>
+                <button class="headerText">Цены</button>
+                <button class="headerText">Обратная связь</button>
+            </div>
+            <!-- правый блок шапки сайта -->
+            <div class="rightHeader">
+                <a class="phoneNumber" href="tel:8 923 777-77-77">8 923 777-77-77</a>
+                <a class="email" href="mailto:alexdev@gmail.com">alexdev@gmail.com</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
